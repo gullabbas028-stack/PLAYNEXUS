@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+.data
+*.log
+.env
+.env.local
+.env.*.local
+next-env.d.ts
+*.tsbuildinfo
+.vercel
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
