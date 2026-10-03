@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --background: 080A12;
+}
+
+body {
+  background-color: #080A12;
+  color: #F8FAFC;
+  font-family: 'Inter', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom gaming neon scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080A12;
+}
+::-webkit-scrollbar-thumb {
+  background: #7C3AED;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #06B6D4;
+}
+
+.neon-glow-purple {
+  box-shadow: 0 0 15px rgba(124, 58, 237, 0.25);
+}
+
+.neon-glow-cyan {
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.25);
+}
+
+.gaming-gradient {
+  background: linear-gradient(135deg, #10131F 0%, #080A12 100%);
+}
+
+.card-gradient {
+  background: linear-gradient(180deg, #151927 0%, #10131F 100%);
+}
